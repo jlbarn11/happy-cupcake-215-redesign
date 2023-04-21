@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Happy Cake!</title>
+        <!-- Favicon -->
+		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.ico">
+        <!-- Stylesheets -->
+        <meta name="author" content="Jessica Barnett">
+        <meta name="description" content="Happy Cake is a bakery specializing in fresh, delicious, custom cupcakes!">
+		<link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Delius+Swash+Caps" rel="stylesheet">
+		<link rel="stylesheet" href="styles.css">
+        <!-- JavaScript -->
+		<script src="scripts.js" defer></script>
+	</head>
+	
+	<body>
+        <a href="#main" id="skip">Skip to Main Content</a>
+		<header>
+			<a href="index.html" aria-label="Go to the happy cupcake dot com">
+				<img src="images/cupcake.png" alt="" id="logo" width="200" height="200">
+			</a>
+			<h1>Happy Cake!</h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="pricing.html">Pricing</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<main id="main">
+			<div id="slideshow">
+				<img class="mySlides" src="images/colorful.gif" alt="Colorful Cupcakes" width="480" height="320">
+				<img class="mySlides hide" src="images/easter.gif" alt="Easter Cupcakes" width="480" height="320">
+				<img class="mySlide hide" src="images/chocolate.gif" alt="Chocolate Cupcakes" width="480" height="320">
+				<img class="mySlides hide" src="images/hearts.gif" alt="Heart Covered Cupcakes" width="480" height="320">
+				<img class="mySlides hide" src="images/pinkcupcakes.gif" alt="Pink Frosted Cupcakes" width="480" height="320">
+				<div id="slideshow-btns">
+					<button id="prev" aria-label="view previous image">
+						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+							<polyline points="15 6 9 12 15 18" />
+						</svg>
+					</button>
+					<button id="play" class="hide" aria-label="Play Slideshow">
+						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-player-play" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+							<path d="M7 4v16l13 -8z" />
+						</svg>
+					</button>
+					<button id="pause" aria-label="Pause slideshow">
+						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-player-pause" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+							<rect x="6" y="5" width="4" height="14" rx="1" />
+							<rect x="14" y="5" width="4" height="14" rx="1" />
+						</svg>
+					</button>
+					<button id="next" aria-label="view next image">
+						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+							<polyline points="9 6 15 12 9 18" />
+						</svg>
+					</button>
+				</div>
+			</div>
+
+
+			<h2>Welcome to Happy Cake!</h2>
+			<p>We love to make treats and can't wait to help you have the most delicious party you can imagine! Check out our <a href="pricing.html">pricing and flavors</a> page to see what we offer and then email us through our <a href="contact.html">contact</a> page so we can help you plan your party! Have a delicious day!</p>
+		</main>
+
+		<div id="btt">
+            <a href="#top" aria-label="back to top of page">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-up" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <polyline points="6 15 12 9 18 15" />
+                </svg>
+            </a>
+        </div>
+	
+		<footer>
+			<p>Copyright &copy;<span>2023</span> Happy Cake! <small>(For educational purposes only)</small>
+				<a href="mailto:contact@thehappycupcake.com">contact@thehappycupcake.com</a></p> 
+		</footer>
+	</body>
+</html>

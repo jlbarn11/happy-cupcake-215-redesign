@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Happy Cake! Contact</title>
+        <!-- Favicon -->
+		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.ico">
+        <!-- Stylesheets -->
+        <meta name="author" content="Jessica Barnett">
+        <meta name="description" content="Please contact us today and let us help you plan your next Happy Cake occasion!">
+		<link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Delius+Swash+Caps" rel="stylesheet">
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	
+	<body id="top">
+        <a href="#main" id="skip">Skip to Main Content</a>
+        <header>
+            <a href="index.html" aria-label="Go to the happy cupcake dot com">
+                <img src="images/cupcake.png" alt="" id="logo" width="200" height="200">
+            </a>
+            <h1>Happy Cake!</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+		
+        <main id="main">
+            <section id="contact-sidebar">
+                <h2>Contact us about your order today!</h2>
+                    <p>Please fill out our contact form and include any questions you may have about your cupcake order (flavors, designs, toppings). You may also reach us through the links below (please know that we do not take any orders through our website or social media. We will need to speak with you before confirming your order). We can't wait to help you!
+                    <address>
+                        1234 Main Street<br>
+                        Anytown, USA 11111
+                        <a href="tel:5555555" id="mobile">(555)555-5555</a>
+                        <span id="desktop">(555)555-5555</span>
+                        <a href="mailto:contact@thehappycupcake.com">contact@thehappycupcake.com</a>
+                    </address>
+                <div id="links">
+                    <a href="https://www.facebook.com/" target="_blank" aria-label="Happy Cupcake Facebook Page">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" aria-label="Happy Cupcake Instagram Page">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <rect x="4" y="4" width="16" height="16" rx="4" />
+                            <circle cx="12" cy="12" r="3" />
+                            <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" aria-label="Happy Cupcake Twitter Page">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+                        </svg>
+                    </a>
+                    <a href="https://pinterest.com" target="_blank" aria-label="Happy Cupcake Pinterest Page">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-pinterest" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <line x1="8" y1="20" x2="12" y2="11" />
+                            <path d="M10.7 14c.437 1.263 1.43 2 2.55 2c2.071 0 3.75 -1.554 3.75 -4a5 5 0 1 0 -9.7 1.7" />
+                            <circle cx="12" cy="12" r="9" />
+                        </svg>
+                    </a>
+                </div>
+            </section>
+                
+            <section id="form">
+                <h2>Please fill this form out with your information and we'll help you choose your next Happy Cake!</h2>
+                <form method="post" action="http://webdevbasics.net/scripts/demo.php">
+                    <div>
+                        <label for="myName">Full Name: <span class="required">*</span></label>
+                        <input type="text" name="myName" id="myName" required="required">
+                    
+                        <label for="myAddress">Address:</label>
+                        <input type="text" name="myAddress" id="myAddress">
+                    
+                        <label for="myCity">City:</label>
+                        <input type="text" name="myCity" id="myCity">
+                    
+                        <label for="myState">State:</label>
+                        <div class="select">
+                            <select size="1" name="myState" id="myState">
+                                <option value="">Select State</option>
+                                <option value="AL">AL</option>
+                                <option value="AK">AK</option>
+                                <option value="AZ">AZ</option>
+                                <option value="AR">AR</option>
+                                <option value="CA">CA</option>
+                                <option value="CO">CO</option>
+                                <option value="CT">CT</option>
+                                <option value="DE">DE</option>
+                                <option value="FL">FL</option>
+                                <option value="GA">GA</option>
+                                <option value="HI">HI</option>
+                                <option value="ID">ID</option>
+                                <option value="IL">IL</option>
+                                <option value="IN">IN</option>
+                                <option value="IA">IA</option>
+                                <option value="KS">KS</option>
+                                <option value="KY">KY</option>
+                                <option value="LA">LA</option>
+                                <option value="ME">ME</option>
+                                <option value="MD">MD</option>
+                                <option value="MA">MA</option>
+                                <option value="MI">MI</option>
+                                <option value="MN">MN</option>
+                                <option value="MS">MS</option>
+                                <option value="MO">MO</option>
+                                <option value="MT">MT</option>
+                                <option value="NE">NE</option>
+                                <option value="NV">NV</option>
+                                <option value="NH">NH</option>
+                                <option value="NJ">NJ</option>
+                                <option value="NM">NM</option>
+                                <option value="NY">NY</option>
+                                <option value="NC">NC</option>
+                                <option value="ND">ND</option>
+                                <option value="OH">OH</option>
+                                <option value="OK">OK</option>
+                                <option value="OR">OR</option>
+                                <option value="PA">PA</option>
+                                <option value="RI">RI</option>
+                                <option value="SC">SC</option>
+                                <option value="SD">SD</option>
+                                <option value="TN">TN</option>
+                                <option value="TX">TX</option>
+                                <option value="UT">UT</option>
+                                <option value="VT">VT</option>
+                                <option value="VA">VA</option>
+                                <option value="WA">WA</option>
+                                <option value="WV">WV</option>
+                                <option value="WI">WI</option>
+                                <option value="WY">WY</option>
+                            </select>
+                            <span class="focus"></span>
+                        </div>
+                    
+                        <label for="myZip">Zip Code:</label>
+                        <input type="text" name="myZip" id="myZip">
+                    </div>
+
+                    <div>
+                        <label for="myPhone">Phone: <span class="required">*</span></label>
+                        <input type="text" name="myPhone" id="myPhone" required="required">
+                    
+                        <label for="myEmail">Email: <span class="required">*</span></label>
+                        <input type="email" name="myEmail" id="myEmail" required="required">
+                    
+                        <fieldset>
+                            <legend>Preferred Method of Contact</legend>
+                            <label for="prefEmail" class="form-control">
+                                <input type="radio" name="prefContact" id="prefEmail" value="Email" checked>
+                                Email
+                            </label>
+
+                            <label for="prefPhone" class="form-control">
+                                <input type="radio" name="prefContact" id="prefPhone" value="Phone">
+                                Phone
+                            </label>	
+                        </fieldset>
+
+                        <label for="myComments">Comments: <span class="required">*</span></label>
+                        <textarea name="myComments" id="myComments"></textarea>
+                    </div>
+
+                    <input type="submit" id="mySubmit" value="Submit Form">
+                </form>
+            </section>
+        </main>
+
+        <div id="btt">
+            <a href="#top" aria-label="back to top of page">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-up" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <polyline points="6 15 12 9 18 15" />
+                </svg>
+            </a>
+        </div>
+    
+        <footer>
+            <p>Copyright &copy;<span>2023</span> <small>(For educational purposes only)</small>
+            <a href="mailto:contact@thehappycupcake.com">contact@thehappycupcake.com</a></p> 
+        </footer>
+	</body>
+</html>
