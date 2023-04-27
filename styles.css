@@ -569,6 +569,7 @@ select::-ms-expand{
 
 select, .select::after{
 	grid-area: select;
+	font-size: 1.45rem;
 }
 
 .select::after{
