@@ -490,6 +490,7 @@ fieldset{
 }
 legend{
 	font-weight: bold;
+	font-size: 1.45rem;
 } 
 
 /* Custom Radio Styles */
